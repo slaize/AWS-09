@@ -17,6 +17,8 @@ def third_page():
 def fourth_page(id):
     return f'Id of this page is {id}'
 
-if __name__ == '__main__':
-    #app.run(debug=True)
-    app.run(host='3.83.237.57', port=80)
+
+if __name__ == "__main__":
+    # app.run(debug=True, port=30000)
+    app.run(host= '0.0.0.0', port=8080)
+

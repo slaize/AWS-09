@@ -13,5 +13,5 @@ def calculate_sum():
     return render_template('body.html', number1=number1, number2=number2, sum=total)
 
 if __name__ == "__main__":
-    #app.run(debug=True)
-    app.run(host='3.83.237.57', port=80)
+    # app.run(debug=True, port=30000)
+    app.run(host= '0.0.0.0', port=8080)
